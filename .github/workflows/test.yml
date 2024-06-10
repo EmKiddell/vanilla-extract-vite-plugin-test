@@ -15,5 +15,5 @@ jobs:
       - name: Make script executable
         run: chmod +x ../../ops/bin/test.sh
       - name: Run tests
-        run: ../../ops/bin/test.sh
+        run: vanilla-extract-vite-plugin-test/ops/bin/test.sh
         
