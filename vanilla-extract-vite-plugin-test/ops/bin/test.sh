@@ -2,7 +2,7 @@
 set -eo pipefail
 
 imageName="v-e-plugin-test:latest"
-dockerfilePath="./Dockerfile"
+dockerfilePath="../../Dockerfile"
 
 docker build -t ${imageName} --target test -f ${dockerfilePath} .
 
