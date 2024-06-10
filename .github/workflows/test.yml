@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Make script executable
-        run: chmod +x ../../ops/bin/test.sh
+        run: chmod +x vanilla-extract-vite-plugin-test/ops/bin/test.sh
       - name: Run tests
         run: vanilla-extract-vite-plugin-test/ops/bin/test.sh
         
