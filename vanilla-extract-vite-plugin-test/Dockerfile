@@ -1,6 +1,6 @@
 FROM node:18.18.2 AS source
 WORKDIR /app
-COPY ./package*.json .
+COPY vanilla-extract-vite-plugin-test/package*.json .
 RUN npm install
 COPY . .
 RUN npm run build
