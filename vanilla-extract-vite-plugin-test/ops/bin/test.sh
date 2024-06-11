@@ -2,7 +2,7 @@
 set -eo pipefail
 
 imageName="v-e-plugin-test:latest"
-dockerfilePath="vanilla-extract-vite-plugin-test/vanilla-extract-vite-plugin-test/Dockerfile"
+dockerfilePath="vanilla-extract-vite-plugin-test/Dockerfile"
 
 docker build -t ${imageName} --target test -f ${dockerfilePath} .
 
