@@ -8,13 +8,10 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["jest", "@testing-library/jest-dom"],
+    // "types": ["jest", "@testing-library/jest-dom"],
 
     /* Linting */
     "strict": true,
