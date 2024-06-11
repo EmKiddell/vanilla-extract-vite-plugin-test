@@ -1,4 +1,4 @@
 # vanilla-extract/vite-plugin test repo
 
-This Vite, Vitest, React, Typescript project is an experiment to reproduce a problem to either prove or rule out it being due to a bug on the vanilla-extract/vite-plugin side. Our tests were all passing locally, but our pipeline was failing with an error message that suggested the @vanilla-extract/vite-plugin was not able to find the Header.css.ts file in the docker container during the test step.
+This project, using Vite, Vitest, React, and TypeScript, aims to isolate a potential issue in the vanilla-extract/vite-plugin. Specifically, we are investigating a scenario where local tests pass, but the CI pipeline fails, citing an error that @vanilla-extract/vite-plugin cannot locate the Header.css.ts file within the Docker container during the test phase.
 
